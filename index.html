@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Speaking Assessment Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!--Main Container-->
+    <div class = "report-container">
+
+       <!--Header-->
+     <div class = "report-header">
+        <h1>Speaking Assessment Report </h1>
+        <p>Student Performance Summary</p>
+     </div>
+
+
+       <!--Overall Score Section-->
+     <div class = "overall-score-section">
+        <h2>Overall Speaking Score</h2>
+
+        <div class = "overall-score">
+            <span class = "score" id = "overall-score">--</span>
+            <span class = "out-of">/ 9</span>
+        </div>
+    </div>
+        
+        <!--Skills Section-->
+     <div class="skills-section">
+    <h2>Skill-wise Scores</h2>
+
+    <div class="skill">
+        <div class="skill-header">
+            <span class="skill-name">Pronunciation</span>
+            <span class="skill-score" id = "pronunciation-score">-- / 9</span>
+        </div>
+        <div class="progress-bar">
+            <div class="progress-fill" id = "pronunciation-bar"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-header">
+            <span class="skill-name">Fluency</span>
+            <span class="skill-score" id = "fluency-score">-- / 9</span>
+        </div>
+        <div class="progress-bar">
+            <div class="progress-fill" id = "fluency-bar"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-header">
+            <span class="skill-name">Vocabulary</span>
+            <span class="skill-score" id = "vocabulary-score">-- / 9</span>
+        </div>
+        <div class="progress-bar">
+            <div class="progress-fill" id = "vocabulary-bar"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-header">
+            <span class="skill-name">Grammar</span>
+            <span class="skill-score" id = "grammar-score">-- / 9</span>
+        </div>
+        <div class="progress-bar">
+            <div class="progress-fill" id = "grammar-bar"></div>
+        </div>
+    </div>
+</div>
+
+
+      <!--Feedback Section-->
+      <div class = "feedback-section">
+        <h2>Descriptive Feedback</h2>
+
+        <p id = "feedback-text"></p> 
+           
+      </div>
+
+    </div>
+
+    <script src = "script.js" defer></script>
+    
+</body>
+</html>
